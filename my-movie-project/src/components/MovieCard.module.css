@@ -1,0 +1,26 @@
+.MovieCardContainer {
+  background-color: none;
+  padding-inline: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.MovieCardContainer img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.MovieCardTitle {
+  background-color: var(--color-secondary-blue);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  height: 120px;
+}
+
+.MovieCardTitle p {
+  font-size: 18px;
+}

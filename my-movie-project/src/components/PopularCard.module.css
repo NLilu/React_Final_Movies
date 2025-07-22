@@ -1,0 +1,31 @@
+.popularCard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.popularCardImage,
+.popularCardTitle {
+  flex: 0 0 50%;
+}
+
+.popularCardImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.popularCardImage img {
+  max-width: 64px;
+  height: 96px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.popularCardTitle {
+  font-size: 12px;
+}

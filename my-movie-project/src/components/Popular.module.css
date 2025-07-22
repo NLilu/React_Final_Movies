@@ -1,0 +1,15 @@
+.popularContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-secondary-blue);
+  border-radius: 10px;
+  min-height: 100%;
+  height: 2215px;
+  margin: 0 auto;
+  padding-inline: 15px;
+  padding-top: 20px;
+}
+
+.popularContainer h6 {
+  margin-bottom: 20px;
+}
